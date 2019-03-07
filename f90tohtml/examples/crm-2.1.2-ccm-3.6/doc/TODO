@@ -1,0 +1,8 @@
+$Header: /fs/cgd/csm/models/CVS.REPOS/atm/ccm_crm/doc/Attic/TODO,v 1.1.2.4 1999/09/07 23:03:28 zender Exp $ -*-text-*-
+
+1. Add eccen,obliq,mvelp input and output. The problem with this
+is that CRM does not use namelist input. With a CRM input file
+eccen,obliq,mvelp must always be input and some sort of key value
+used to determine when to use them and when to use iyear_AD.
+3. Remove empty directories?
+4. Change $Header: /fs/cgd/csm/models/CVS.REPOS/atm/ccm_crm/doc/Attic/TODO,v 1.1.2.4 1999/09/07 23:03:28 zender Exp $ to $Id: TODO,v 1.1.2.4 1999/09/07 23:03:28 zender Exp $
